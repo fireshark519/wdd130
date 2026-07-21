@@ -44,7 +44,9 @@ footer {
 nav {
     background-color: aliceblue;
     padding: 5px;
-
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
@@ -55,13 +57,27 @@ nav a {
 
 h1 {
     color: #000;
+    border-bottom: 1px solid black;
+    margin: 15px 0;
+    text-align: center;
 }
 
-/* Class Selectors */
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
