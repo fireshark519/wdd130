@@ -99,11 +99,6 @@ header nav a:hover {
     text-align: center;
 }
 
-.adventure-grid img {
-    width: 100%;
-    height: auto;
-}
-
 .adventure-grid figcaption {
     margin-top: 0.5rem;
     font-size: 0.9rem;
