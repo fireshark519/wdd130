@@ -278,7 +278,7 @@ main h1 {
 .button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: #1c6ea4;
+    background-color: var(--primary-color);
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
@@ -310,7 +310,7 @@ main h1 {
 
 .newsletter button {
     padding: 0.75rem;
-    background-color: #1c6ea4;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: 6px;
