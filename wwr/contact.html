@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact River Highway to ask questions about our white water rafting trips, book an adventure, or learn more about our guides and services.">
+    <meta name="author" content="Roberto Correia">
+    <title>Contact Us - River Highway</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="WWR Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+
+        <div class="contact-info">
+            <p>
+                123 Main River Street<br>
+                Kolob, California<br>
+                +1 (999) 999-9999<br>
+                <a href="mailto:info@riverhighway.com">info@riverhighway.com</a>
+            </p>
+        </div>
+
+        <div class="contact-container">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.070552018966!2d-117.66488489999999!3d33.49954150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcf1007b47291b%3A0xd9a9260d81a95824!2sRiver%20Street%20Marketplace!5e0!3m2!1sen!2spt!4v1785793968227!5m2!1sen!2spt"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" name="purpose" value="general" checked> General
+                        Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website
+                        Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
+
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter" checked> Please subscribe me to the
+                    monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee-1.jpg" alt="Photo of Maria Santos, Head Guide">
+                    <figcaption>Maria Santos &mdash; Head Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-2.jpg" alt="Photo of James Carter, Safety Instructor">
+                    <figcaption>James Carter &mdash; Safety Instructor</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-3.jpg" alt="Photo of Emily Nguyen, Trip Coordinator">
+                    <figcaption>Emily Nguyen &mdash; Trip Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 | River Highway | Roberto Correia</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
