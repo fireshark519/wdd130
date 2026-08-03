@@ -134,7 +134,12 @@ footer {
     height: auto;
 }
 
-h1 {
+main h1 {
+    text-align: center;
+    margin: 16px;
+}
+
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
